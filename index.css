@@ -1,0 +1,209 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.nav {
+    background-color: white;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.navRight{
+    float: right;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px
+}
+
+    .image {
+        background-image: url("images/pot\ arial.jpg");
+        background-position: center;
+        font-size: 299%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: bold;
+        padding: 69px;
+        text-align: center;
+        
+    }
+
+        .button {
+            background-color: black;
+            color:white;
+            padding: 15px 32px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+        }
+
+            .image h1 {
+                color: white;
+                text-align: center;
+            }
+
+            .image h3 {
+                color: white;
+                text-align: center;
+                font-family: cursive;
+                font-size: 99%;
+            }
+
+.map h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.map {
+    text-align: center;
+    
+}
+
+.map a {
+    color: red;
+}
+
+.top {
+    padding-bottom: 10px;
+}
+
+pre{
+    white-space: pre-wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 21px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.gallery {
+    text-align: center; 
+}
+
+.gallery a {
+    color: red;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+
+}
+
+.products h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.products {
+    text-align: center; 
+}
+
+.products a {
+    color: red;
+}
+
+
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+
+}
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+
+}
+
+
+
+
+.team h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.team {
+    text-align: center; 
+}
+
+.team a {
+    color: red;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+
+}
+.grid6 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+
+}
+.footer {
+    background-color: seagreen;
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;   
+}
+.footer p {
+    color:white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width:400px){
+    body{
+        background: red !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
